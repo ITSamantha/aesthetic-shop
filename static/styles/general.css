@@ -1,0 +1,130 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Sofia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display&family=Sofia&display=swap');
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font: 400 16px 'Montserrat', Arial, Helvetica, sans-serif;
+    color: #2D2D2D;
+}
+
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+    transition: .4s;
+}
+
+/* Header */
+
+.search-options__search-item {
+    appearance: none;
+    border: none;
+    outline: none;
+    border-bottom: .1em solid #DADADA;
+    background: transparent;
+    border-radius: .2em .2em 0 0;
+    padding: .4em;
+    color: #2D2D2D;
+}
+
+.search-options__search-item:focus{
+    border-bottom: .1em solid #2D2D2D;
+}
+
+
+::-webkit-input-placeholder {
+    color: #DADADA;
+}
+
+
+
+.nav-main__item,
+.user-options__item {
+    display: inline-block;
+}
+
+.user-options__img {
+    margin: 10px;
+    width: 25px;
+    height: 25px;
+}
+
+
+/* Navigation */
+.nav-main {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.nav-main__item {
+    padding: 10px;
+}
+
+.nav-main__item:hover {
+    border-bottom: 0.1em solid #2D2D2D;
+}
+
+.logo_index {
+    height: 60px;
+}
+
+.footer-container {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 3%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__column {
+    width: 24%;
+    text-align: left;
+    padding: 1%;
+}
+
+.footer__item:hover{
+    text-decoration: underline;
+}
+
+.footer__item{
+    font-size: 12px;
+    padding-bottom: 2%;
+}
+
+.footer__list{
+    list-style: none;
+}
+
+.footer__headings{
+    font-weight: 600;
+    font-size: 14px;
+    padding-bottom: 4%;
+}
+
+.created-by{
+    color: #CECECE;
+    font-size: 12px;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.selected__item {
+    border-bottom: 0.1em solid #2D2D2D;
+}

@@ -1,0 +1,52 @@
+
+
+.header-container {
+    background: url(../images/index-background.jpg) no-repeat;
+    background-size: cover;
+    padding-bottom: 15%;
+}
+
+/*Header - Text*/
+.header__preview-text {
+    padding-top: 10%;
+    padding-left: 50%;
+    text-align: center;
+    justify-content: center;
+    color: #FFFFFF;
+}
+
+.header__title {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.header__offer {
+    font: 500 50px 'Playfair Display', serif;
+    padding-top: 18px;
+}
+
+.header__go-to-catalog {
+    padding-top: 20px;
+    color: #2D2D2D;
+    display: flex;
+    align-items: center;
+}
+
+.header__go-to-catalog a {
+    color: #2D2D2D;
+    background-color: #FFFFFF;
+    font-size: 14px;
+    width: 220px;
+    height: 40px;
+    margin: 0 auto;
+    border-top: 0.9em solid #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
